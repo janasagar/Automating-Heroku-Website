@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-30T21:04:39 IST" name="Default suite" finished-at="2024-06-30T21:04:51 IST" duration-ms="11674">
+  <suite started-at="2024-06-30T21:30:22 IST" name="Default suite" finished-at="2024-06-30T21:30:31 IST" duration-ms="8917">
     <groups>
     </groups>
-    <test started-at="2024-06-30T21:04:39 IST" name="Default test" finished-at="2024-06-30T21:04:51 IST" duration-ms="11674">
-      <class name="paly_with_WebElement_WebDriver.Heroku">
-        <test-method is-config="true" signature="visit()[pri:0, instance:paly_with_WebElement_WebDriver.Heroku@183ec003]" started-at="2024-06-30T21:04:39 IST" name="visit" finished-at="2024-06-30T21:04:49 IST" duration-ms="9867" status="PASS">
+    <test started-at="2024-06-30T21:30:22 IST" name="Default test" finished-at="2024-06-30T21:30:31 IST" duration-ms="8917">
+      <class name="paly_with_WebElement_WebDriver.Heroku_checkboxs">
+        <test-method is-config="true" signature="visit()[pri:0, instance:paly_with_WebElement_WebDriver.Heroku_checkboxs@183ec003]" started-at="2024-06-30T21:30:22 IST" name="visit" finished-at="2024-06-30T21:30:29 IST" duration-ms="7352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- visit -->
-        <test-method signature="add_remove()[pri:0, instance:paly_with_WebElement_WebDriver.Heroku@183ec003]" started-at="2024-06-30T21:04:49 IST" name="add_remove" finished-at="2024-06-30T21:04:50 IST" duration-ms="1248" status="PASS">
+        <test-method signature="checkbox()[pri:0, instance:paly_with_WebElement_WebDriver.Heroku_checkboxs@183ec003]" started-at="2024-06-30T21:30:29 IST" name="checkbox" finished-at="2024-06-30T21:30:30 IST" duration-ms="923" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- add_remove -->
-        <test-method is-config="true" signature="close()[pri:0, instance:paly_with_WebElement_WebDriver.Heroku@183ec003]" started-at="2024-06-30T21:04:50 IST" name="close" finished-at="2024-06-30T21:04:51 IST" duration-ms="438" status="PASS">
+        </test-method> <!-- checkbox -->
+        <test-method is-config="true" signature="close()[pri:0, instance:paly_with_WebElement_WebDriver.Heroku_checkboxs@183ec003]" started-at="2024-06-30T21:30:30 IST" name="close" finished-at="2024-06-30T21:30:31 IST" duration-ms="522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- paly_with_WebElement_WebDriver.Heroku -->
+      </class> <!-- paly_with_WebElement_WebDriver.Heroku_checkboxs -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

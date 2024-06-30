@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class Heroku {
+public class Heroku_add_remove {
 	WebDriver driver;
 	
 	@BeforeTest

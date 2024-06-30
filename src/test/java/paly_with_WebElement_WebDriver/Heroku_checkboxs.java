@@ -41,6 +41,7 @@ public class Heroku_checkboxs {
 		for(int i=0;i<size;i++) {
 			check_Boxs.get(i).click();
 		}
+		System.out.println("Chcekboxes selected and deselected");
 		
 		
 	}

@@ -1,4 +1,4 @@
-package paly_with_WebElement_WebDriver;
+package paly_with_WebDriver;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

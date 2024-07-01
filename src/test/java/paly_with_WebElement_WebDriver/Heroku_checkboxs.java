@@ -18,16 +18,18 @@ public class Heroku_checkboxs {
 	WebDriver driver;
 	
 	@BeforeTest
-	public void visit() {
+	public void visit() throws InterruptedException {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		
 		driver.get("https://the-internet.herokuapp.com/");
 		driver.manage().window().maximize();
+		Thread.sleep(4000);
 	}
 	@Test
-	public void checkbox() {
+	public void checkbox() throws InterruptedException {
 		driver.findElement(By.linkText("Checkboxes")).click();
+		
 		System.out.println("Navigate to Checkboxes page");
 		
 		String PageText = driver.findElement(By.xpath("//div[@id='content']/div/h3")).getText();
@@ -35,12 +37,11 @@ public class Heroku_checkboxs {
 		System.out.println("Header of the page is "+PageText);
 		Assert.assertEquals(PageText, "Checkboxes");
 		System.out.println("Now We are in Checkboxes page");
-		
-		List<WebElement>  check_Boxs = driver.findElements(By.id("checkboxes"));
-		int size = check_Boxs.size();
-		for(int i=0;i<size;i++) {
-			check_Boxs.get(i).click();
-		}
+		Thread.sleep(4000);
+		driver.findElement(By.xpath("(//input[@type='checkbox'])[1]")).click();
+		Thread.sleep(4000);
+		driver.findElement(By.xpath("(//input[@type='checkbox'])[2]")).click();
+		Thread.sleep(4000);
 		System.out.println("Chcekboxes selected and deselected");
 		
 		

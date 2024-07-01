@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="paly_with_WebElement_WebDriver.Heroku_checkboxs">
+      <class name="paly_with_WebElement_WebDriver.dropdown">
         <methods>
-          <include name="checkbox"/>
+          <include name="drpdwn"/>
           <include name="visit"/>
           <include name="close"/>
         </methods>
-      </class> <!-- paly_with_WebElement_WebDriver.Heroku_checkboxs -->
+      </class> <!-- paly_with_WebElement_WebDriver.dropdown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

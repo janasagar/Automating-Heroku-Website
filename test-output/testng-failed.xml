@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="paly_with_WebElement_WebDriver.dropdown">
+      <class name="paly_with_WebDriver.new_tab">
         <methods>
-          <include name="drpdwn"/>
+          <include name="new_window"/>
           <include name="visit"/>
           <include name="close"/>
         </methods>
-      </class> <!-- paly_with_WebElement_WebDriver.dropdown -->
+      </class> <!-- paly_with_WebDriver.new_tab -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
